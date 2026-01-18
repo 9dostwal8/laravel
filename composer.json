@@ -17,6 +17,7 @@
         "filament/spatie-laravel-translatable-plugin": "^3.2",
         "kenepa/translation-manager": "^4.0",
         "laravel/framework": "^12.0",
+        "laravel/nightwatch": "^1.22",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.10.1",
         "livewire/flux": "^2.1.1",

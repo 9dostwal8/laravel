@@ -1,0 +1,16 @@
+[2026-01-18 06:45:01] production.ERROR: Class "ZipArchive" not found {"exception":"[object] (Error(code: 0): Class \"ZipArchive\" not found at C:\\Users\\didam\\OneDrive\\Desktop\\new_current\\vendor\\spatie\\laravel-backup\\config\\backup.php:133)
+[stacktrace]
+#0 C:\\Users\\didam\\OneDrive\\Desktop\\new_current\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(162): require()
+#1 C:\\Users\\didam\\OneDrive\\Desktop\\new_current\\vendor\\spatie\\laravel-package-tools\\src\\Concerns\\PackageServiceProvider\\ProcessConfigs.php(21): Illuminate\\Support\\ServiceProvider->mergeConfigFrom()
+#2 C:\\Users\\didam\\OneDrive\\Desktop\\new_current\\vendor\\spatie\\laravel-package-tools\\src\\PackageServiceProvider.php(53): Spatie\\LaravelPackageTools\\PackageServiceProvider->registerPackageConfigs()
+#3 C:\\Users\\didam\\OneDrive\\Desktop\\new_current\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): Spatie\\LaravelPackageTools\\PackageServiceProvider->register()
+#4 C:\\Users\\didam\\OneDrive\\Desktop\\new_current\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(74): Illuminate\\Foundation\\Application->register()
+#5 C:\\Users\\didam\\OneDrive\\Desktop\\new_current\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(871): Illuminate\\Foundation\\ProviderRepository->load()
+#6 C:\\Users\\didam\\OneDrive\\Desktop\\new_current\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(37): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 C:\\Users\\didam\\OneDrive\\Desktop\\new_current\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#8 C:\\Users\\didam\\OneDrive\\Desktop\\new_current\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 C:\\Users\\didam\\OneDrive\\Desktop\\new_current\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 C:\\Users\\didam\\OneDrive\\Desktop\\new_current\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 C:\\Users\\didam\\OneDrive\\Desktop\\new_current\\artisan(16): Illuminate\\Foundation\\Application->handleCommand()
+#12 {main}
+"} 
