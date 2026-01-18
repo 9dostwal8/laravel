@@ -1,0 +1,23 @@
+@font-face {
+    font-family: speda;
+    src: url('../fonts/Speda.ttf') format("truetype"),
+        url('../fonts/Speda.ttf') format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*[dir='rtl'] {
+    font-family: speda, sans-serif !important;
+}
+
+.fi-sidebar-header .fi-logo{
+    font-size: 17px;
+    line-height: 27px;
+
+}
+.fi-fo-field-wrp-label sup{
+    font-family: Tahoma !important;
+    font-size: 13px;
+    top: 3px;
+    margin: 0 5px;
+}

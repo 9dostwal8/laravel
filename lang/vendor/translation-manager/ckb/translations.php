@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'translation-navigation-label' => 'بەڕێوەبەری وەرگێڕان',
+    'translation-label' => 'وەرگێڕان|وەرگێڕانەکان',
+    'group' => 'گروپی وەرگێڕان',
+    'key' => 'کلیلی وەرگێڕان',
+    'preview-in-your-lang' => 'پێشبینی بە زمانی ئێستات (:lang)',
+    'synchronize' => 'هاوکاتکردن',
+    'synchronization-success' => ':count وەرگێڕان هاوکات کراوە!',
+    'synchronization-deleted' => ':count وەرگێڕانی بەکارنەهێنراو سڕاوەتەوە',
+    'preview' => 'پێشبینی',
+    'preview-description' => 'ئەمە نموونەیەکە لە زمانە هەڵبژێردراوەکەی ئێستادا (:lang)',
+    'add-translation-button' => 'وەرگێڕانی نوێ زیاد بکە',
+    'translation-language' => 'زمان',
+    'translation-text' => 'دەقی وەرگێڕدراو',
+    'filter-not-translated' => 'وەرنەگێڕدراوە بۆ',
+    'quick-translate' => 'وەرگێڕانی خێرا',
+    'quick-translate-select-locale' => 'زمانەکە هەڵبژێرە',
+    'quick-translate-translation-number' => ':total وەرگێڕان ماوە بۆ وەرگێڕان',
+    'quick-translate-skip' => 'ئەم وەرگێڕانە بەجێبهێڵە',
+    'quick-translate-enter' => 'وەرگێڕانەکە بە زمانی ":lang" داخڵ بکە:',
+    'quick-translate-save-and-continue' => 'پاشەکەوت بکە و بەردەوام بە',
+    'quick-translate-nothing' => 'هیچ شتێک نەماوە بۆ وەرگێڕان!',
+];
